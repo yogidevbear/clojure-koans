@@ -50,4 +50,4 @@
      ((fn [[first-name last-name] test-address]
        (let [{:keys [street-address city state]} test-address]
          (str first-name " " last-name ", " street-address ", " city ", " state)))
-       ["Test" "Testerson"] test-address))
+       ["Test" "Testerson"] test-address)))
